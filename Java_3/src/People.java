@@ -6,28 +6,26 @@ public class People {
     private UUID id;
     private String firstName;
     private String secondName;
+    private City city;
     private ArrayList<TypeOfFine> fines = new ArrayList<TypeOfFine>();
     public People() {
         id = UUID.randomUUID();
     }
-    public People(String firstName, String secondName) {
+    public People(String firstName, String secondName, City city) {
         id = UUID.randomUUID();
         this.firstName = firstName;
         this.secondName = secondName;
+        this.city = city;
     }
     public UUID getId() {
         return id;
     }
-    public void getFines() {
-        if(fines.size() > 0) {
-            for(TypeOfFine fine : fines){
-                System.out.println(fine);
-            }
-        }
-        else {
-            System.out.println("Штрафов нет.");
-        }
+    public City getCity() {
+        return city;
+    }
+    public ArrayList<TypeOfFine> getFines() {
 
+        return fines;
     }
     public void addFines(TypeOfFine type) {
         fines.add(type);
@@ -42,6 +40,7 @@ public class People {
         return "ID: " + id
                 + ", Имя: " + firstName
                 + ", Фамилия: " + secondName
+                + ", Город: " + city
                 + ", Штрафы: " + fines;
     }
 
