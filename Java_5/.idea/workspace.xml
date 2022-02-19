@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfc93e13-3d39-4c25-aaf9-e56fcbdc0520" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Calculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Calculate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CalculateTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/demo3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
