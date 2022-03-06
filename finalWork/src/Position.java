@@ -1,0 +1,7 @@
+public enum Position {
+    DIRECTOR,
+    CHIEF_ENGINEER,
+    HEAD_ECONOMIST,
+    COMMERCIAL_DIRECTOR,
+    WORKER
+}
